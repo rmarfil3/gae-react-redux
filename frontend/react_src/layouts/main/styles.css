@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/fonts/opensans/OpenSans-Regular.ttf');
+}
+body, select {
+    font-family: 'OpenSans-Regular';
+    font-size: 11px;
+}
+body {
+    padding: 70px 0;
+}

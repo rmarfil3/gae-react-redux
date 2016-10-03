@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #607d8b;
+}
+.brand {
+	padding: 12px;
+}
+.brand-text {
+	color: white!important;
+}
+.logo {
+	height: 100%;
+	width: auto;
+}

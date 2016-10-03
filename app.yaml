@@ -1,0 +1,29 @@
+application: gae-react-redux
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+- url: /css
+  static_dir: frontend/static/css
+- url: /js
+  static_dir: frontend/static/js
+- url: /img
+  static_dir: frontend/static/img
+- url: /fonts
+  static_dir: frontend/static/fonts
+
+- url: /api/.*
+  script: main.api
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
