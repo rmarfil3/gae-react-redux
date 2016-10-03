@@ -1,8 +1,8 @@
 <h3>A boilerplate using React with Redux on Google App Engine (Python).</h3>
 This boilerplate uses Gulp for automated building. Following plugins are also being used for seamless development:
 <ul>
-    <li><b>LiveReactLoad</b> - allows hot-reloading for React components; no need refreshing browser.</li>
-    <li><b>BrowserSync</b> - allows hot-reloading for CSS files / page styles; no need refreshing the browser. </li>
+    <li><b><a href="https://github.com/milankinen/livereactload">LiveReactLoad</a></b> - allows hot-reloading for React components; no need refreshing browser.</li>
+    <li><b><a href="https://www.browsersync.io">BrowserSync</a></b> - allows hot-reloading for CSS files / page styles; no need refreshing the browser. </li>
 </ul>
 <br><br>
 **BUILD INSTRUCTIONS**
